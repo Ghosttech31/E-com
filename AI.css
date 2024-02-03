@@ -1,0 +1,30 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+}
+body{
+    background-image: url(image/backgroundhome.jpg);
+    background-size: cover;
+}
+.one h1 {
+   color: azure;
+   text-align: center;
+   padding-top: 10px;    
+}
+.hi{
+    display: flex;
+    justify-content: center;
+}
+.hi button {
+    border: #222;
+  padding: 14px 80px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+.hi button:hover {
+    background-color: rgb(249, 253, 0);
+}

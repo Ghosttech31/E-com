@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cart</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="addtocart.css" />
+        <link rel="stylesheet" href="style.css">
+        <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+      />
+        <script src="addtocart.js" async></script>
+    </head>
+    <body>
+      <section id="header">
+        <h1>Eyes EveryWhere</h1>
+  
+        <div>
+          <ul id="navbar">
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="lg-bag">
+              <a class="active" href="cart.html"><i class="bx bxs-cart-alt"></i></a>
+            </li>
+            <li id="lg-bag">
+              <a href="user.html"><i class="bx bxs-user-circle"></i></a>
+            </li>
+            <a href="#" id="close"><i class="bx bx-x-circle"></i></a>
+          </ul>
+        </div>
+        <div id="moblie">
+          <a href="cart.html"><i class="bx bxs-cart-alt"></i></a>
+          <i id="bar" class="bx bx-arrow-back"></i>
+        </div>
+      </section>
+  
+        <section class="container content-section">
+            <h2 class="section-header">Your Choice</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Product 1</span>
+                    <img class="shop-item-image" src="image/ss.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Product 2</span>
+                    <img class="shop-item-image" src="img/H1.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Product 3</span>
+                    <img class="shop-item-image" src="img/H2.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Product 4</span>
+                    <img class="shop-item-image" src="Img/logo.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Save for Later</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Product 1</span>
+                    <img class="shop-item-image" src="image/goos.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Product 2</span>
+                    <img class="shop-item-image" src="image/goos.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button" onclick="window.location.href='user.html';">PURCHASE</button>
+        </section>
+        <div class="hi">
+            <p>@2024, Ghosttech31 - HTML CSS Ecommerce template</p>
+          </div>
+      
+    </body>
+</html>
